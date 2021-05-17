@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/secret-agent.min.css",
   "author": "Charles Kim (denouement.ca)",
-  "description": "",
+  "description": "A sensible foundation to create custom stylesheets",
   "keywords": [
     "css"
   ],
