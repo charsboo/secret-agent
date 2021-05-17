@@ -1,0 +1,190 @@
+/*! Secret Agent v1.0.0 | MIT License | github.com/charsboo/secret-agent */
+
+/*
+ *  `var()`
+ *  1st argument is name of custom property from Curious Agent network
+ *  2nd argument is name of fallback custom property defined here
+ */
+:root {
+  --agent--ff: system-ui, -apple-system, sans-serif;
+  --agent--fs: 1rem;
+  --agent--fw: 300;
+  --agent--lh: 1.5;
+  --agent--ls: 0.02em;
+  --agent--ti: 2rem;
+
+  --agent--ff-code: ui-monospace, monospace;
+  --agent--fw-bold: 600;
+  --agent--lh-form: 1.25;
+}
+
+/*
+ *  UNIVERSAL
+ */
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/*
+ *  ROOT
+ */
+html {
+  text-size-adjust: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family, var(--agent--ff));
+  font-size: var(--font-size, var(--agent--fs));
+  font-weight: var(--font-weight, var(--agent--fw));
+  line-height: var(--line-height, var(--agent--lh));
+  letter-spacing: var(--letter-spacing, var(--agent--ls));
+  margin: 0;
+}
+
+/*
+ *  SECTIONS
+ */
+main {
+  display: block;
+}
+
+address {
+  font-style: inherit;
+}
+
+/*
+ *  HEADINGS
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block: 0;
+}
+
+/*
+ *  GROUPING CONTENT
+ */
+hr {
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  block-size: 0.0625rem;
+  margin-block: 0;
+}
+
+blockquote,
+figure {
+  margin: 0;
+}
+
+p {
+  margin-block: 0;
+}
+
+pre {
+  font-family: var(--font-family--code, var(--agent--ff-code));
+  font-weight: var(--font-weight, var(--agent--fw));
+  letter-spacing: 0;
+  tab-size: 2;
+  margin-block: 0;
+  overflow-x: auto;
+}
+
+dl,
+ol,
+ul {
+  padding-inline-start: var(--text-indent, var(--agent--ti));
+  margin-block: 0;
+}
+
+dd {
+  margin-inline-start: 0;
+}
+
+/*
+ *  TEXT-LEVEL SEMANTICS
+ */
+b,
+strong {
+  font-weight: var(--font-weight--lg, var(--agent--fw-bold));
+}
+
+code,
+kbd,
+samp,
+var {
+  font-family: var(--font-family--code, var(--agent--ff-code));
+  font-style: initial;
+  font-weight: var(--font-weight, var(--agent--fw));
+  letter-spacing: 0;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+sub,
+sup {
+  font-size: 0.5em;
+  font-weight: bolder;
+  line-height: 0;
+}
+
+/*
+ *  EMBEDDED
+ */
+iframe {
+  border: 0;
+}
+
+/*
+ *  TABULAR DATA
+ */
+table {
+  border-spacing: 0;
+}
+
+caption {
+  text-align: initial;
+}
+
+th {
+  text-align: initial;
+}
+
+/*
+ *  FORMS
+ */
+fieldset {
+  border: 0;
+  min-inline-size: none;
+  padding: 0;
+  margin-inline: 0;
+}
+
+legend {
+  padding-inline: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-family, var(--agent--ff));
+  font-size: var(--font-size, var(--agent--fs));
+  font-weight: var(--font-weight, var(--agent--fw));
+  line-height: var(--line-height--sm, var(--agent--lh-form));
+  margin: 0;
+}
+
+textarea {
+  resize: vertical;
+}
