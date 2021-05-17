@@ -8,7 +8,7 @@
 
 ### CDN
 
-https://cdn.jsdelivr.net/npm/@charsboo/secret-agent@1.1.1/dist/secret-agent.min.css
+https://cdn.jsdelivr.net/npm/@charsboo/secret-agent@1.0/dist/secret-agent.min.css
 
 ### Download
 
