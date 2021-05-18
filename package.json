@@ -1,6 +1,6 @@
 {
   "name": "@charsboo/secret-agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/secret-agent.min.css",
   "author": "Charles Kim (denouement.ca)",
   "description": "A sensible foundation to create custom stylesheets",
