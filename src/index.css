@@ -2,7 +2,7 @@
 
 /*
  *  `var()`
- *  1st argument is name of custom property from Curious Agent network
+ *  1st argument is name of custom property from Curious Agent Network
  *  2nd argument is name of fallback custom property defined here
  */
 :root {
@@ -59,7 +59,6 @@ address {
 /*
  *  HEADINGS
  */
-
 h1,
 h2,
 h3,
